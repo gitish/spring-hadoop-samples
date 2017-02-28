@@ -9,6 +9,6 @@ Use the following commands to build and run the sample
     $ mvn clean package
     $ sh ./target/appassembler/bin/usercount
 
-
-
+Add below if you have Bootstrapping JavaConfig
+@ImportXml("classpath:com/company/app/datasource-config.xml")
 
