@@ -10,5 +10,7 @@ Use the following commands to build and run the sample
     $ sh ./target/appassembler/bin/usercount
 
 Add below if you have Bootstrapping JavaConfig
-```@ImportXml("classpath:com/company/app/datasource-config.xml")```
+```
+@ImportXml("classpath:com/company/app/datasource-config.xml")
+```
 
